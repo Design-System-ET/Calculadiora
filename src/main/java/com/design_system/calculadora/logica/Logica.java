@@ -62,8 +62,12 @@ public class Logica {
         }else if(comm.equals("%")){
         
             if (!display.getText().isEmpty()) {
+                
+                //guardo el numero
                 num_1 = Double.parseDouble(display.getText());
+                //realizo la operacion
                 result = num_1 / 100;
+                //muestro en pantalla
                 display.setText(String.valueOf(result));
             }
             
@@ -76,3 +80,11 @@ public class Logica {
         }
     }
 }
+
+
+/*
+EXPLICACION DE LA OPERACION
+
+
+
+*/

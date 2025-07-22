@@ -34,7 +34,7 @@ public class CalculadoraGUI extends JFrame{
         //display
         display = new JTextField();
         display.setEnabled(false);
-        display.setFont(new Font("Arial", Font.PLAIN, 50));    
+        display.setFont(new Font("Arial", Font.PLAIN, 50));   
         //muestro el display en el jframe
         this.add(display, BorderLayout.NORTH);
         
@@ -51,7 +51,7 @@ public class CalculadoraGUI extends JFrame{
         
         //cremos arreglo de los textos de los botones
         String[] txt_botones = {
-        "AC","C","%","/",
+        "C","√","%","/",
         "7","8","9", "*",
         "4","5","6","-",
         "1","2","3","+",
@@ -89,3 +89,10 @@ public class CalculadoraGUI extends JFrame{
         }
     }
 }
+
+
+/*
+EXPLICACION
+
+
+*/
