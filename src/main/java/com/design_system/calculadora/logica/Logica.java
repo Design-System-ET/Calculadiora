@@ -77,6 +77,18 @@ public class Logica {
             display.setText("");
             num_1 = 0;
             num_2 = 0;
+            
+        }else if(comm.equals("√")){
+        
+            if (!display.getText().isEmpty()) {
+            
+                //guardo el numero
+                num_1 = Double.parseDouble(display.getText());
+                //realizo la operacion
+                result = Math.sqrt(num_1);
+                //muestro en pantalla
+                display.setText(String.valueOf(result));
+            }
         }
     }
 }
